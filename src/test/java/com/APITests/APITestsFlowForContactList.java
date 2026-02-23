@@ -1,7 +1,6 @@
 package com.APITests;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
 import org.testng.annotations.*;
