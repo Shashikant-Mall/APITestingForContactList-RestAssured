@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-24T01:17:11 IST" name="Default suite" finished-at="2026-02-24T01:17:34 IST" duration-ms="23181">
+    <groups>
+    </groups>
+    <test started-at="2026-02-24T01:17:11 IST" name="Default test" finished-at="2026-02-24T01:17:34 IST" duration-ms="23181">
+      <class name="com.APITests.APITestsFlowForContactList">
+        <test-method signature="testTC01_AddNewUser()[pri:1, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:11 IST" name="testTC01_AddNewUser" finished-at="2026-02-24T01:17:17 IST" duration-ms="5548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC01_AddNewUser -->
+        <test-method signature="testTC02_GetUserProfile()[pri:2, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:17 IST" name="testTC02_GetUserProfile" finished-at="2026-02-24T01:17:18 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC02_GetUserProfile -->
+        <test-method signature="testTC03_UpdateUser()[pri:3, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:18 IST" name="testTC03_UpdateUser" finished-at="2026-02-24T01:17:20 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC03_UpdateUser -->
+        <test-method signature="testTC04_LoginUser()[pri:4, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:20 IST" name="testTC04_LoginUser" finished-at="2026-02-24T01:17:22 IST" depends-on-methods="com.APITests.APITestsFlowForContactList.testTC03_UpdateUser" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC04_LoginUser -->
+        <test-method signature="testTC05_AddContact()[pri:5, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:22 IST" name="testTC05_AddContact" finished-at="2026-02-24T01:17:24 IST" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC05_AddContact -->
+        <test-method signature="testTC06_GetContactList()[pri:6, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:24 IST" name="testTC06_GetContactList" finished-at="2026-02-24T01:17:26 IST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC06_GetContactList -->
+        <test-method signature="testTC07_GetContact()[pri:7, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:26 IST" name="testTC07_GetContact" finished-at="2026-02-24T01:17:28 IST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC07_GetContact -->
+        <test-method signature="testTC08_FullUpdateContact()[pri:8, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:28 IST" name="testTC08_FullUpdateContact" finished-at="2026-02-24T01:17:30 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC08_FullUpdateContact -->
+        <test-method signature="testTC09_PartialUpdateContact()[pri:9, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:30 IST" name="testTC09_PartialUpdateContact" finished-at="2026-02-24T01:17:32 IST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC09_PartialUpdateContact -->
+        <test-method signature="testTC10_LogoutUser()[pri:10, instance:com.APITests.APITestsFlowForContactList@47eaca72]" started-at="2026-02-24T01:17:32 IST" name="testTC10_LogoutUser" finished-at="2026-02-24T01:17:34 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC10_LogoutUser -->
+      </class> <!-- com.APITests.APITestsFlowForContactList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
