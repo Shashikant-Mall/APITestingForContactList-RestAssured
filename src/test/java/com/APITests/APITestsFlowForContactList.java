@@ -4,7 +4,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import com.POJOFiles.Contact;
 import com.POJOFiles.User;
 import io.restassured.response.Response;
